@@ -1,0 +1,45 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+*{
+    color: white;
+}
+
+.c1 {
+    top: 100px;
+    left: 40px;
+}
+
+.c2 {
+    bottom: 200px;
+    right: 50px;
+}
+.outer-box {
+  height: 90vh;
+  background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+.container{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    top:50%
+}
+.box{
+    width: 200px;
+    background-color: #1b9bff;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(50, 50, 50);
+    margin-left: 50px;
+    text-align: center;
+}
+.greet{
+    font-size: 50px;
+    margin: auto;
+    position: absolute;
+    top:20%;
+    left: 38%;
+}
